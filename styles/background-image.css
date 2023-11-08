@@ -1,0 +1,14 @@
+.background1 {
+  background-image: url('/PowerCarousel/assets/img/1.jpg');
+  transition: all 1s;
+}
+
+.background2 {
+  background-image: url('/PowerCarousel/assets/img/2.jpg');
+  transition: all 1s;
+}
+
+.background3 {
+  background-image: url('/PowerCarousel/assets/img/3.jpg');
+  transition: all 1s;
+}

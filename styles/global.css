@@ -1,3 +1,13 @@
 @import url(reset.css);
 @import url(./background.css);
+@import url(./background-image.css);
+@import url(./infos.css);
 
+:root{
+  --text: #EDF1F7;
+  --button: rgba(255, 255, 255, 0.50);
+}
+
+body {
+  overflow: hidden;
+}
