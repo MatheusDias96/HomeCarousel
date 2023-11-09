@@ -28,12 +28,11 @@
 
 .btn-container {
   display: flex;
+  justify-content: space-between; 
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: space-between; 
   padding: 0 20px;
 }
 
@@ -46,4 +45,31 @@
   padding: 30px 20px;
   margin: 0 103px;
 }
+.counter-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
 
+.counter {
+  color: aliceblue;
+  font-size: 25px;
+  position: relative;
+}
+
+.counter-line {
+  height: 3px;
+  width: 50px; 
+  opacity: 0.9;
+}
+
+.active-color{
+  background: #fff;
+  transition: all 1s;
+}
+
+.off-color{
+  background: rgba(255, 255, 255, 0.50);;
+}
