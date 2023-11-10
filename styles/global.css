@@ -2,6 +2,13 @@
 @import url(./background.css);
 @import url(./background-image.css);
 @import url(./infos.css);
+@import url(/styles/menu.css);
+
+
+*{
+  text-decoration: none;
+  list-style: none;
+}
 
 :root{
   --text: #EDF1F7;
