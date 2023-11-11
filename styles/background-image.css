@@ -1,14 +1,17 @@
-.background1 {
-  background-image: url('/assets/img/1.jpg');
+.background1,
+.background2,
+.background3 {
   transition: all 1s;
+}
+
+.background1 {
+  background: url('../assets/img/1.jpg') center/cover no-repeat;
 }
 
 .background2 {
-  background-image: url('/assets/img/2.jpg');
-  transition: all 1s;
+  background: url('../assets/img/2.jpg') center/cover no-repeat;
 }
 
 .background3 {
-  background-image: url('/assets/img/3.jpg');
-  transition: all 1s;
+  background: url('../assets/img/3.jpg') center/cover no-repeat;
 }

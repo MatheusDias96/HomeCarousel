@@ -1,20 +1,22 @@
-@import url(reset.css);
-@import url(./background.css);
-@import url(./background-image.css);
-@import url(./infos.css);
-@import url(/styles/menu.css);
+@import url('reset.css');
+@import url('background-image.css');
+@import url('background.css');
+@import url('infos.css');
+@import url('menu.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 
-*{
+* {
   text-decoration: none;
   list-style: none;
 }
 
-:root{
-  --text: #EDF1F7;
-  --button: rgba(255, 255, 255, 0.50);
+:root {
+  --text: #edf1f7;
+  --button: rgba(255, 255, 255, 0.5);
 }
 
 body {
   overflow: hidden;
+  font-family: 'Roboto', sans-serif;
 }
