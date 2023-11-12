@@ -24,3 +24,56 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
+.take-container{
+  margin-top: 20px;
+}
+
+.take-container a {
+width: 7.813rem;
+color: #FFF;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 30px;
+  ;
+}
+
+.take-container a:hover{
+color: var(--button);
+transition: all 0.6s;
+}
+
+
+.take-container svg{
+  padding-left:10px 20px ;
+}
+
+.take-container a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; /* Cor do texto do link */
+  transition: color 0.3s ease; /* Adiciona uma transição para a cor do texto */
+}
+
+.take-container a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #fff; /* Cor da linha */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: opacity 0.3s ease; /* Adiciona uma transição de 0.3 segundos para a opacidade */
+  opacity: 1; /* Define a opacidade inicial como 1 (totalmente visível) */
+}
+
+.take-container a:hover {
+  color: var(--button); /* Muda a cor do texto do link ao passar o mouse */
+}
+
+.take-container a:hover::after {
+  opacity: 0; /* Define a opacidade para 0 (totalmente transparente) quando o mouse passa sobre o link */
+}

@@ -45,6 +45,15 @@
   padding: 30px 20px;
   margin: 0 103px;
 }
+
+.btn2{
+  color: #FFF;
+}
+
+.btn2:hover{
+color: var(--button);
+}
+
 .counter-container {
   display: flex;
   justify-content: center;
