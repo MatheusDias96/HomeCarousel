@@ -9,7 +9,7 @@
 .content {
   display: grid;
   grid-template-columns: auto;
-  height: 100vh;
+  height: 93vh;
   width: 100%;
   gap: 1rem;
   align-items: center;
