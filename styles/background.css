@@ -28,7 +28,6 @@
 
 .next-and-prev {
   width: 100%;
-
   padding: 0 4rem;
   position: absolute;
   bottom: 0;
@@ -107,8 +106,10 @@
     height: 0.3rem;
     width: 2.125rem;
   }
-  .content{
-   padding: 0 3rem; 
+  .content {
+    padding: 0 3rem;
   }
-
+  .next-and-prev {
+    bottom: 40px;
+  }
 }
