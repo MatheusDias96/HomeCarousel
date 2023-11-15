@@ -50,6 +50,8 @@ header {
   header {
     margin-right: -15px;
     margin-left: -15px;
+    justify-content: flex-start;
+    padding: 1.2rem 3rem;
   }
   .menu-nav li a {
     font-size: 0.9rem;
