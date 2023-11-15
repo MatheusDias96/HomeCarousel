@@ -5,7 +5,6 @@ header {
   justify-content: space-around;
   padding: 20px 10px;
 }
-
 .menu-nav {
   display: flex;
   align-self: center;
@@ -13,11 +12,10 @@ header {
   margin-left: 10px;
   gap: 10px;
 }
-
 .menu-nav li a {
   color: #fff;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -26,28 +24,39 @@ header {
 .menu-nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
-
 .logo {
   display: flex;
   padding: 10px;
   margin-right: 60px;
 }
-
 .icons {
   padding: 10px;
   gap: 25px;
   display: flex;
 }
 .icons a {
-  font-size: 10px;
-}
-
-.icons a {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .logo:hover img {
   filter: brightness(0.8);
 }
 .icons a:hover img {
   filter: brightness(0.8);
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 575.98px) {
+  header {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .menu-nav li a {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .menu-nav {
+    gap: 0.3rem;
+    justify-content: flex-start;
+  }
 }

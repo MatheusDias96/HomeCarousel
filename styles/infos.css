@@ -1,7 +1,7 @@
 span {
   color: var(--text);
   font-family: Roboto;
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 700;
 }
 
@@ -19,61 +19,59 @@ span {
 p {
   color: rgba(255, 255, 255, 0.7);
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
-}
-.take-container{
-  margin-top: 20px;
+  line-height: 1.875rem;
 }
 
-.take-container a {
-width: 7.813rem;
-color: #FFF;
-font-size: 23px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
-margin-top: 30px;
-  ;
-}
-
-.take-container a:hover{
-color: var(--button);
-transition: all 0.6s;
-}
-
-
-.take-container svg{
-  padding-left:10px 20px ;
-}
-
-.take-container a {
-  position: relative;
-  display: inline-block;
+/* Custom Btn */
+.take-btn {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 35%;
+  height: 3rem;
+  text-align: center;
   text-decoration: none;
-  color: #fff; /* Cor do texto do link */
-  transition: color 0.3s ease; /* Adiciona uma transição para a cor do texto */
+  cursor: pointer;
+  padding: 0.75rem;
+  color: #373737d7;
+  background-color: #ffffffa7;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.take-btn:hover {
+  background-color: #fff;
+  transition: all 0.6s;
+  color: #373737;
+}
+.take-btn-text {
+  font-family: 'Viga', sans-serif;
+  color: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  white-space: nowrap;
 }
 
-.take-container a::after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: #fff; /* Cor da linha */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: opacity 0.3s ease; /* Adiciona uma transição de 0.3 segundos para a opacidade */
-  opacity: 1; /* Define a opacidade inicial como 1 (totalmente visível) */
-}
+/* MOBILE */
 
-.take-container a:hover {
-  color: var(--button); /* Muda a cor do texto do link ao passar o mouse */
-}
+@media only screen and (max-width: 575.98px) {
+  span {
+    font-size: 1.2rem;
+  }
 
-.take-container a:hover::after {
-  opacity: 0; /* Define a opacidade para 0 (totalmente transparente) quando o mouse passa sobre o link */
+  .title {
+    font-size: 7rem;
+  }
+  p {
+    font-size: 0.925rem;
+    max-width: 75%;
+    padding-right: 15px;
+  }
+  .take-btn {
+    margin-top: 0.75rem;
+  }
 }
