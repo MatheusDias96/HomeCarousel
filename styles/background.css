@@ -13,16 +13,16 @@
   width: 100%;
   gap: 1rem;
   align-items: center;
-  align-content: start;
-  margin-top: 200px;
+  padding: 0 7rem;
 }
 
 .background-container {
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
   max-width: 600px;
-  margin-left: 100px;
   gap: 10px;
 }
 
