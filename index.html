@@ -12,7 +12,7 @@
 <body>
   <div data-js="background-image" class="background transition-carousel background1">
     <header>
-      <a class="logo" href="/"><img src="./assets/svg/vector.svg" alt="vector"></a>
+      <a class="logo d-none-mobile" href="/"><img src="./assets/svg/vector.svg" alt="vector"></a>
 
       <nav class="menu-nav">
         <li><a href="#">Home</a></li>
@@ -23,7 +23,7 @@
         <li><a href="#">Shop</a></li>
       </nav>
 
-      <div class="icons">
+      <div class="icons d-none-mobile">
         <a href="#"><img src="./assets/svg/search.svg" alt=""></a>
         <a href="#"><img src="./assets/svg/magnifying-glass-logo.svg" alt=""></a>
       </div>
@@ -36,14 +36,12 @@
           <h1 class="title">DESIGN</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.
           </p>
-          <div class="take-container">
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-              <circle cx="5" cy="5" r="4.5" stroke="white" />
-            </svg>
-            <a href="">Take A Look</a>
+          <div class="take-btn">          
+            <a class="take-btn-text" href="#">Take A Look</a>
           </div>
         </div>
-        <div class="btn-container">
+        <div class="next-and-prev">
+          <div class="btn-container">          
           <button data-js="btn" class="btn">&#x2190;</button>
           <div class="counter-container">
             <div class="counter-init counter">01</div>
@@ -53,6 +51,7 @@
             <div class="counter-init counter">03</div>
           </div>
           <button data-js="btn2" class="btn btn2">&#x2192;</button>
+        </div>
         </div>
       </div>
   </div>
